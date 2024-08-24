@@ -5,10 +5,10 @@ import { START_QUIZ_BUTTON_ID } from '../constants.js';
  * @returns {Element}
  */
 export const createWelcomeElement = () => {
-    const element = document.createElement('div');
-    element.innerHTML = String.raw`
+  const element = document.createElement('div');
+  element.innerHTML = String.raw`
     <h1 class = "welcome" >Welcome</h1>
     <button id="${START_QUIZ_BUTTON_ID}">start quiz</button>
   `;
-    return element;
+  return element;
 };

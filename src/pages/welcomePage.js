@@ -3,20 +3,18 @@ import { createWelcomeElement } from '../views/welcomeView.js';
 import { initQuestionPage, stopTimer } from './questionPage.js';
 // Add stopTimer
 
-
 export const initWelcomePage = () => {
-    const userInterface = document.getElementById(USER_INTERFACE_ID);
-    userInterface.innerHTML = '';
+  const userInterface = document.getElementById(USER_INTERFACE_ID);
+  userInterface.innerHTML = '';
 
-    const welcomeElement = createWelcomeElement();
-    userInterface.appendChild(welcomeElement);
+  const welcomeElement = createWelcomeElement();
+  userInterface.appendChild(welcomeElement);
 
-    document
-        .getElementById(START_QUIZ_BUTTON_ID)
-        .addEventListener('click', startQuiz);
-
+  document
+    .getElementById(START_QUIZ_BUTTON_ID)
+    .addEventListener('click', startQuiz);
 };
 
 const startQuiz = () => {
-    initQuestionPage();
+  initQuestionPage();
 };

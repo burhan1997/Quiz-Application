@@ -7,10 +7,10 @@ import { NEXT_QUESTION_BUTTON_ID } from '../constants.js';
  */
 
 export const createQuestionElement = (question) => {
-    const element = document.createElement('div');
-    // I use String.raw just to get fancy colors for the HTML in VS Code. 
-    //Added id in h1
-    element.innerHTML = String.raw` 
+  const element = document.createElement('div');
+  // I use String.raw just to get fancy colors for the HTML in VS Code.
+  //Added id in h1
+  element.innerHTML = String.raw` 
     <h1 id='questionHeader'>${question}</h1>
 
     <ul id="${ANSWERS_LIST_ID}"> 
@@ -25,8 +25,5 @@ export const createQuestionElement = (question) => {
     </div>
   `;
 
-    return element;
+  return element;
 };
-
-
-

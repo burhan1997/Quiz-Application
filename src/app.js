@@ -1,6 +1,6 @@
 import { quizData } from './data.js';
 import { initWelcomePage } from './pages/welcomePage.js';
-import { initEndPage } from './pages/endPage.js'; // Imports the initEndPage function 
+import { initEndPage } from './pages/endPage.js'; // Imports the initEndPage function
 
 const loadApp = () => {
   quizData.currentQuestionIndex = 0;

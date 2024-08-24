@@ -2,7 +2,7 @@ module.exports = {
   singleQuote: true,
   trailingComma: 'es5',
   bracketSpacing: true,
-  jsxBracketSameLine: false,
+  bracketSameLine: false, // Updated from jsxBracketSameLine
   tabWidth: 2,
   semi: true,
 };
