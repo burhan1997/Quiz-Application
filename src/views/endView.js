@@ -3,6 +3,7 @@ import { initWelcomePage } from "../pages/welcomePage.js";
 export const createEndElement = () => { 
   //Create a new HTML div element and with innerHTML set the congrats message and restart button
   const element = document.createElement('div');
+  element.className = "end-cont"
   element.innerHTML = `
   <h1>Congratulations! You've completed the quiz!</h1>
 

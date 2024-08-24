@@ -19,12 +19,14 @@ export const quizData = {
         {
             text: 'What are the different ways to declare a JS variable?',
             answers: {
-                a: 'constant, let, variable',
-                b: 'var, const, let, function',
-                c: 'var, let, const',
-                d: 'const, let, variable',
+
+                A: 'constant, let, variable',
+                B: 'var, const, let, function',
+                C: 'var, let, const',
+                D: 'const, let, variable',
+
             },
-            correct: 'c',
+            correct: 'C',
             selected: null,
             links: [
                 {
@@ -40,12 +42,14 @@ export const quizData = {
         {
             text: 'What does `typeof` do?',
             answers: {
-                a: 'changes the type of a primitive value',
-                b: 'returns a string describing the type of a value',
-                c: 'determines if a value is primitive',
-                d: 'can tell the difference between arrays and objects',
+
+                A: 'Changes the type of a primitive value',
+                B: 'Returns a string describing the type of a value',
+                C: 'Determines if a value is primitive',
+                D: 'Can tell the difference between arrays and objects',
             },
-            correct: 'b',
+            correct: 'D',
+
             selected: null,
             links: [
                 {
@@ -62,12 +66,12 @@ export const quizData = {
         {
             text: 'Which HTML attribute is used to define inline styles?',
             answers: {
-                a: 'font',
-                b: 'class',
-                c: 'style',
-                d: 'css',
+                A: 'font',
+                B: 'class',
+                C: 'style',
+                D: 'css',
             },
-            correct: 'c',
+            correct: 'C',
             selected: null,
             links: [
                 {
@@ -84,12 +88,12 @@ export const quizData = {
         {
             text: 'What does CSS stand for?',
             answers: {
-                a: 'Computer Style Sheets',
-                b: 'Colorful Style Sheets',
-                c: 'Creative Style Sheets',
-                d: 'Cascading Style Sheets',
+                A: 'Computer Style Sheets',
+                B: 'Colorful Style Sheets',
+                C: 'Creative Style Sheets',
+                D: 'Cascading Style Sheets',
             },
-            correct: 'd',
+            correct: 'D',
             selected: null,
             links: [
                 {
@@ -106,12 +110,12 @@ export const quizData = {
         {
             text: 'Who is making the Web standards?',
             answers: {
-                a: 'W3C',
-                b: 'Microsoft',
-                c: 'Google',
-                d: 'Mozilla',
+                A: 'W3C',
+                B: 'Microsoft',
+                C: 'Google',
+                D: 'Mozilla',
             },
-            correct: 'a',
+            correct: 'A',
             selected: null,
             links: [
                 {
@@ -128,12 +132,12 @@ export const quizData = {
         {
             text: 'JavaScript is ______ Side Scripting Language.',
             answers: {
-                a: 'Server',
-                b: 'ISP',
-                c: 'Browser',
-                d: 'None of These',
+                A: 'Server',
+                B: 'ISP',
+                C: 'Browser',
+                D: 'None of These',
             },
-            correct: 'c',
+            correct: 'C',
             selected: null,
             links: [
                 {
@@ -150,12 +154,12 @@ export const quizData = {
         {
             text: 'The property in CSS used to change the background color of an element is?',
             answers: {
-                a: 'bgcolor',
-                b: 'colo',
-                c: 'background-color',
-                d: 'All of the above',
+                A: 'bgcolor',
+                B: 'colo',
+                C: 'background-color',
+                D: 'All of the above',
             },
-            correct: 'c',
+            correct: 'C',
             selected: null,
             links: [
                 {
@@ -172,12 +176,14 @@ export const quizData = {
         {
             text: 'The CSS property used to control the elements font size is?',
             answers: {
-                a: 'text-style',
-                b: 'font-size',
-                c: 'text-size',
-                d: 'font-style',
+                A: 'text-style',
+                B: 'font-size',
+                C: 'text-size',
+                D: 'font-style',
             },
-            correct: 'b',
+
+            correct: 'D',
+
             selected: null,
             links: [
                 {
@@ -194,12 +200,12 @@ export const quizData = {
         {
             text: 'Which selector is used to specify a style for one unique element?',
             answers: {
-                a: 'id',
-                b: 'text',
-                c: 'attribute',
-                d: 'class',
+                A: 'id',
+                B: 'text',
+                C: 'attribute',
+                D: 'class',
             },
-            correct: 'a',
+            correct: 'A',
             selected: null,
             links: [
                 {
@@ -216,12 +222,14 @@ export const quizData = {
         {
             text: 'Are the negative values allowed in padding property?',
             answers: {
-                a: 'Yes',
-                b: 'No',
-                c: 'It depends on HTM',
-                d: 'None of the above',
+                A: 'Yes',
+                B: 'No',
+                C: 'It depends on HTM',
+                D: 'None of the above',
             },
-            correct: 'b',
+
+            correct: 'D',
+
             selected: null,
             links: [
                 {
