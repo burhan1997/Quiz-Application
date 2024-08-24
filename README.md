@@ -21,7 +21,7 @@ We have already implemented a very basic UI that can go through the questions to
 <img width="1503" alt="Ekran Resmi 2024-08-24 22 26 35" src="https://github.com/user-attachments/assets/176e191e-9f8b-4990-9bff-58e24de786af">
 <img width="1508" alt="Ekran Resmi 2024-08-24 22 26 55" src="https://github.com/user-attachments/assets/1de2afba-bdef-4373-8af5-03c2d49708a2">
 <img width="1510" alt="Ekran Resmi 2024-08-24 22 27 07" src="https://github.com/user-attachments/assets/c5d833f3-7a3d-47f3-8a11-52843be7de52">
-<img width="1512" alt="Ekran Resmi 2024-08-24 22 27 22" src="https://github.com/user-attachments/assets/5a354f4f-2e67-41d0-83db-a7dc4ab083a5">
+<img width="1511" alt="Ekran Resmi 2024-08-25 01 27 52" src="https://github.com/user-attachments/assets/8b297601-f943-4b45-84a4-b76a635edd90">
 
 ## Development
 
