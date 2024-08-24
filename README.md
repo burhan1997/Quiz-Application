@@ -4,6 +4,17 @@ This repository functions as the basis of the quiz project in the [Browsers modu
 
 We have already implemented a very basic UI that can go through the questions to show you how this kind of code is split and how you can use the structure to your advantage. Have a look through it before your first group meeting as it can take a little while to get your head around it!
 
+## Application Features 
+-  **Clickable Answers:** Answers are clickable, and the application provides feedback on selection.
+-  **Next Question Button:** A button to proceed to the next question.
+-  **Answer Feedback:** Clicking on an answer shows red for incorrect answers and green for correct answers.
+-  **Results Page:** A results page that displays the outcome of the quiz.
+-  **Timer:** A timer to track the time taken to complete the quiz.
+-  **Progress Bar:** A progress bar to show the user’s progress through the 10 questions.
+-  **Restart Quiz Button:** A button on the results page to restart the quiz.
+-  **Animated Transitions:** Animations for transitioning between the welcome page and the start of the questions.
+
+
 ## Application Screenshots
 <img width="1509" alt="Ekran Resmi 2024-08-24 22 26 20" src="https://github.com/user-attachments/assets/4e025fb1-9b3c-4f07-be89-3b575055acbe">
 <img width="1503" alt="Ekran Resmi 2024-08-24 22 26 35" src="https://github.com/user-attachments/assets/176e191e-9f8b-4990-9bff-58e24de786af">
@@ -23,13 +34,6 @@ There are no dependencies needed to run the website, everything is prepared to w
 - `npm install`
 
 # Structure
-
-Instead of writing all code in a single JavaScript file, we want you to split your code over several files.
-The structure of this project is explained in the next video
-
-[![Project Structure YouTube Video](https://i.imgur.com/hDcLYFt.png)](https://youtu.be/bysBqtSKBpQ)
-
-Let's run through the folders:
 
 ```
 public
