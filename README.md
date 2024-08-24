@@ -4,7 +4,7 @@ This repository functions as the basis of the quiz project in the [Browsers modu
 
 We have already implemented a very basic UI that can go through the questions to show you how this kind of code is split and how you can use the structure to your advantage. Have a look through it before your first group meeting as it can take a little while to get your head around it!
 
-## Application Features 
+## Quiz-Application Features 
 -  **Clickable Answers:** Answers are clickable, and the application provides feedback on selection.
 -  **Next Question Button:** A button to proceed to the next question.
 -  **Answer Feedback:** Clicking on an answer shows red for incorrect answers and green for correct answers.
@@ -15,7 +15,7 @@ We have already implemented a very basic UI that can go through the questions to
 -  **Animated Transitions:** Animations for transitioning between the welcome page and the start of the questions.
 
 
-## Application Screenshots
+## Quiz-Application Screenshots
 <img width="1509" alt="Ekran Resmi 2024-08-24 22 26 20" src="https://github.com/user-attachments/assets/4e025fb1-9b3c-4f07-be89-3b575055acbe">
 <img width="1503" alt="Ekran Resmi 2024-08-24 22 26 35" src="https://github.com/user-attachments/assets/176e191e-9f8b-4990-9bff-58e24de786af">
 <img width="1508" alt="Ekran Resmi 2024-08-24 22 26 55" src="https://github.com/user-attachments/assets/1de2afba-bdef-4373-8af5-03c2d49708a2">
@@ -53,35 +53,3 @@ index.html
   - `views` this contains code to define what the DOM will look like. They will create the DOM element and give it back. They should never read from/write to the dom, that is what the pages do.
   - `app.js` this file our initialisation code. Generally this code should only run once and starts the application
   - `data.js` this is our data model. Anything we need to store in the browser we place inside the data file
-
-# Goal and Backlog
-
-So what should be built? Below is a collection of user stories you can choose from. Stories inside of each priority level are not necessarily in order, it's up to your group to decide how they fit into your strategy. These are also just suggestion, feel free to change them or create your own! Feel free to get creative.
-
-Choose a desired end result at the start of the project.
-By choosing an existing example, the goal of the project will be clear to everyone in the team.
-Another benefit is that it will be easier to come up with the necessary tasks to create your quiz.
-
-Some examples of online quizes that you might like:
-
-- https://wwbm.com/
-- https://www.typeform.com/templates/t/trivia/
-- https://lovattspuzzles.com/online-puzzles-competitions/ultimate-online-trivia-quiz/
-- https://www.lenstore.co.uk/vc/colour-is-in-the-eye-of-the-beholder/#/game
-- https://heywise.com/quiz/lets-find-out-if-you-follow-gordon-ramsay/1/
-
-When you have chosen your goal, you can create tasks as issues on Github and assign them to team members.
-Tasks could look like this, using the [MoSCoW](https://en.wikipedia.org/wiki/MoSCoW_method) labels for prioritization
-
-- [ ] (must have) Answer is clickable
-- [ ] (must have) Next question button takes you to the next question
-- [ ] (must have) If you click on an answer, it shows red for incorrect, green for correct
-- [ ] (must have) Results page
-- [ ] (should have) Timer for completing quiz
-- [ ] (should have) Progress bar through the 10 questions
-- [ ] (should have) A user can refresh the page and still have his/her given answers available
-- [ ] (shold have) Restart quiz button, on the results page
-- [ ] (could have) Animate transition between welcome page and start of questions
-
-
-You should create tasks that fit with your goal, these tasks serve just as an example.
